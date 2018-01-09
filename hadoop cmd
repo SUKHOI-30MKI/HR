@@ -1,0 +1,12 @@
+TO REMOVE DIR:
+			hadoop fs -rm -r -skipTrash '/user'
+TO MAKE DIR:
+			hadoop fs -mkdir '/d2/'
+TO PUT IN HDFS: 
+			hadoop fs -put '/home/student/Desktop/data.csv' '/d1/'
+DIRECTLY RUN ON HADOOP (HIVE COMMAND):
+			dfs -put /home/student/Desktop/data.csv /d1/
+TO REMOVE THE CORRUPT BLOCKS:
+			hadoop fsck / -delete
+
+
